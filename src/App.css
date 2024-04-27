@@ -1,0 +1,186 @@
+.head-nav {
+  border-bottom: 2px solid orange;
+  position: fixed !important;
+  z-index: 1 !important;
+  width: 100%;
+}
+
+.Navbarr {
+
+  margin: 20px 50px 18px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.morgan-bg-img {
+  background-image: url(Assest/bg.jpg);
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+}
+
+.morgan-fame {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+  padding-top: 260px;
+}
+
+.servicebtn {
+  margin-left: 570px;
+  margin-top: 50px;
+  border-radius: 50%;
+  border-width: 10px;
+}
+
+.box {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  border: solid 2px rgb(240, 159, 37);
+}
+
+.boxes{
+  margin-left: 50px;
+  padding-left: 50px;
+}
+
+
+.aboutbgimg {
+  background-image: url(../src/Assest/bg-image.jpg);
+  background-size: cover;
+  height: 90vh;
+  position: relative;
+}
+
+.abouttext {
+  position: absolute;
+  top: 40%;
+  right: 40%;
+  font-size: 80px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.tital {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.oil{
+  margin-left: 143px;
+  margin-top: 20px;
+}
+
+.enquiry-form {
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px 10px  rgba(243, 14, 228, 0.1);
+}
+
+.enquiry-form input[type="text"],
+.enquiry-form input[type="email"],
+.enquiry-form input[type="tel"],
+.enquiry-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+
+
+ @media only screen and (max-width: 768px) {
+
+  .servicebtn{
+    margin-left: 80px;
+  } 
+ 
+  .head-nav{
+    width: 435px;
+  }
+
+  .side-img{
+    width: 45vb;
+    padding-right: 10px;
+    padding-top: 15px;
+  }
+
+  .morgan-fame{
+    position: absolute;
+    top: 150px;
+    right: 35px;
+    width: 40vb;
+    
+  }
+
+  .morgan-bg-img{
+     background-position: 50%;
+  }
+
+
+   .all-card{
+    margin-left: 20px;
+    margin-bottom: 20px;
+  } 
+
+   
+  .servicebtn{
+    margin-left: 140px;
+  }
+
+  .last-section{
+   text-align: start;
+
+ }
+
+.boxes{
+  margin-left: 100px;
+  padding-left: 10px;
+}
+
+.all-box{
+  padding-left: 0px;
+  padding-right: 100px;
+  margin-bottom: 20px;
+}
+
+.box{
+  padding-top: 50px;
+  padding-bottom: 80px;
+  margin: 0px 60px 0px 60px;
+}
+
+.abouttext{
+  right: 75px;
+}
+
+.still-img{
+  margin-top: 10px;
+  width: 43vb;
+}
+
+.oil-2{
+  text-align: end;
+}
+
+.oil{
+  text-align: end;
+}
+
+.aboutbgimg{
+  background-position: 50%;
+}
+
+
+
+.map{
+  margin-left: -20px;
+}
+
+}
